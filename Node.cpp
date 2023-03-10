@@ -3,7 +3,6 @@
 
 #include"Header.h"
 
-// Реализация методов класса Node<T>
 template<class T>
 Node<T>::Node()
 {
