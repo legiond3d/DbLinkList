@@ -3,7 +3,6 @@
 
 #include"Header.h"
 
-// Реализация методов класса DbLinkList:
 template<class T>
 DbLinkList<T>::DbLinkList()
 {
@@ -208,7 +207,7 @@ void DbLinkList<T>::reverse()
 template<class V>
 ostream& operator<<(ostream& path, const DbLinkList<V>& lst)
 {
-	path << "Коллекция: " << endl << "{ ";
+	path << "ГЉГ®Г«Г«ГҐГЄГ¶ГЁГї: " << endl << "{ ";
 	if (lst.head == NULL)
 	{
 		path << "Empty }" << endl;
@@ -231,7 +230,7 @@ ostream& operator<<(ostream& path, const DbLinkList<V>& lst)
 template<class V>
 ofstream& operator<<(ofstream& path, const DbLinkList<V>& lst)
 {
-	path << "Коллекция: " << endl << "{ ";
+	path << "ГЉГ®Г«Г«ГҐГЄГ¶ГЁГї: " << endl << "{ ";
 	if (lst.head == NULL)
 	{
 		path << "Empty }" << endl;
